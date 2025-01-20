@@ -12,8 +12,7 @@ This repository contains two Spring Boot microservices: **Question Service** and
   - [Quiz Service](#quiz-service)
 - [Inter-Service Communication](#inter-service-communication)
 - [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Endpoints](#endpoints)
+
 
 ---
 
@@ -51,6 +50,21 @@ public interface QestionClients {
 }
 
 When the Quiz Service fetches a quiz, it uses the Feign Client to call the Question Service and retrieve associated questions.
+
+
+### Technologies Used
+
+- Java: Programming language
+
+- Spring Boot: Framework for building microservices
+- Spring Data JPA
+- Spring Web
+- Spring OpenFeign
+- Maven: Build and dependency management tool
+
+  ### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 
 
